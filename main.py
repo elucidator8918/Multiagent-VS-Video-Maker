@@ -3,7 +3,7 @@ import uuid
 import tempfile
 import numpy as np
 import streamlit as st
-from moviepy.editor import VideoFileClip, CompositeVideoClip
+from moviepy import VideoFileClip, CompositeVideoClip
 
 def green_to_red(frame):
     """
